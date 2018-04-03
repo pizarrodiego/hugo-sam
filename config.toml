@@ -1,6 +1,6 @@
-baseurl                 = "eopizarro.net/"               # Your domain name. Must end with "/"
+baseurl                 = "/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
-title                   = "eopizarro.net"
+title                   = "Call me Sam"
 theme                   = "sam"
 # googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
 
@@ -10,25 +10,25 @@ theme                   = "sam"
     favicon             = "/sam.ico"
     pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
-    homepage            = "main"                        # What to call the home page link
+    homepage            = "home"                        # What to call the home page link
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Call me Sam, a theme for Hugo."
+    footerText          = "© eopizarro.net, 2018"
 
 # Metadata
     description         = "A new Hugo site."            # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
     primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
-#[[params.mainMenu]]
-#    link = "/posts"
-#    text = "writing"
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
 
 #[[params.mainMenu]]
 #    link = "/gallery"
 #    text = "gallery"
 
-#[[params.mainMenu]]
-#    link = "/about"
-#    text = "who is sam?"
+[[params.mainMenu]]
+    link = "/about"
+    text = "about"
     
