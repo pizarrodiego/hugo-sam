@@ -21,3 +21,5 @@ fields:
   hidden: false
   default: true
 - type: file
+  label: img
+  name: img
