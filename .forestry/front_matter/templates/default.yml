@@ -1,8 +1,8 @@
 ---
 pages:
 - test.md
-- posts/test2.md
 - posts/subir/test-subdir.md
+- posts/test2.md
 hide_body: false
 fields:
 - name: title
