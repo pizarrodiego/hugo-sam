@@ -1,6 +1,7 @@
 ---
 pages:
 - test.md
+- posts/test2.md
 - posts/subir/test-subdir.md
 hide_body: false
 fields:
